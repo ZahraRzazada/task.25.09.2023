@@ -1,0 +1,50 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.containerz{
+    padding: 1rem 3rem;
+}
+header{
+   
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    .icons{
+    text-align: right;
+    }
+    .menu{
+        display: none;
+    }
+    .catagory.catagory:hover{
+color:rgb(12, 100, 194);
+    }
+    .catagory{
+        border: 2px dashed rgb(12, 100, 194);
+        border-radius: 10px;
+        padding: 5px 10px;
+        transition: 0.6s;
+    }
+    .catagory i{
+        margin-right: 10px;
+        color: rgb(12, 100, 194);
+    }
+    .icons i{
+        margin-right: 20px;
+        font-size: 20px;
+    }
+   nav{
+    margin-left: 50px;
+   }
+   nav i{
+    font-size: 17px;
+   }
+    nav a{
+        margin:0 20px 0px 5px;
+        font-size: 18px;
+        color: black;
+    }
+
+}
